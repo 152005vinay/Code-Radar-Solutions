@@ -9,9 +9,9 @@ int main(){
     if (x==0 || y==0){
         printf("True");
     }
-    else{
-        printf("False");
-    }
+    // else{
+        // printf("False");
+    // }
     return 0;
 
     
