@@ -6,5 +6,5 @@ int main(){
         b++;
         pro=a*b;
     }
-    printf("%d x %d=%d\n",a,b,pro);
+    printf("%d x %d = %d\n",a,b,pro);
 }
