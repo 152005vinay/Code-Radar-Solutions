@@ -5,6 +5,7 @@ int main(){
     while(b<10){
         b++;
         pro=a*b;
-    }
+    
     printf("%d x %d = %d\n",a,b,pro);
+}
 }
