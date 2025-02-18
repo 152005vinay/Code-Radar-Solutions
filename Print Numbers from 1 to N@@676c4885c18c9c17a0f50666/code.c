@@ -1,8 +1,10 @@
 #include<stdio.h>
-int n,a;
-scanf("%d",&n);
-a=1;
-while (n>=a){
-    printf("%d ",a);
-    a++;
+int main(){
+    int n,a;
+    a=1;
+    scanf("%d",&n);
+    while(a<=n){
+        printf("%d ",a);
+        a++;
+    }
 }
