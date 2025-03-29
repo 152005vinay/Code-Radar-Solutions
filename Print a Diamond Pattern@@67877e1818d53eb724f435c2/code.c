@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             int a=(n-1)/2 + 1
-            if(i==a || j==a){
+            if(i=a || j=a){
                 printf("*");
             }
             else{
