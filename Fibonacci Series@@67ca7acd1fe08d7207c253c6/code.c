@@ -6,7 +6,7 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    fibonacciseries(n);
+    fibonacciSeries(n);
     return 0;
 }
     
