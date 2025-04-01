@@ -4,10 +4,10 @@ int main(){
     printf("");
     scanf("%d",&n);
 
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=n;j++){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
             int a=(n-1)/2 + 1;
-            if(i==a || j==a){
+            if(i==a || j==a || n-1-i<){
                 printf("*");
             }
             else{
